@@ -18,7 +18,7 @@ The project is structured in 4 phases:
 4. **Implementation** — database creation in MySQL, triggers, sample data loading, and queries.
 ## 🗂️ Data Model
  
-![ER Diagram](diagrama_er.png)
+![ER Diagram](ER_inditex.png)
  
 **Main entities:** `Store`, `Employee`, `Customer`, `Product`, `Supplier`, `Purchase`
 **N:N relationships with their own table:** `Has` (Store–Product, with derived stock), `IsSoldIn` (Purchase–Product)
